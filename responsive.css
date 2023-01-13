@@ -1,0 +1,250 @@
+@media screen and (max-width: 992px) {
+  header {
+    height: 620px;
+  }
+  .menu-toggle {
+    display: flex;
+  }
+  .navbar ul:nth-child(2) {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.445);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.651);
+    padding: 0 26px;
+    box-sizing: border-box;
+    position: absolute;
+    border-radius: 20px 0 20px 20px;
+    top: 10px;
+    right: 38px;
+    width: 0;
+    height: 0;
+    opacity: 0;
+    transition: 0.5s ease;
+    overflow: hidden;
+  }
+  .navbar ul:nth-child(2).slide {
+    width: 30%;
+    height: 20vh;
+    opacity: 1;
+  }
+  .tagline h1 {
+    font-size: 3.7vw;
+    line-height: 5.8vw;
+  }
+  .tagline p {
+    font-size: 1.6vw;
+    line-height: 2.4vw;
+  }
+  .button-tagline button,
+  .side button {
+    font-size: 1.4vw;
+  }
+  .cards-courses {
+    justify-content: center;
+    column-gap: 4%;
+  }
+  #partners h2,
+  #courses h2,
+  #features-services h2,
+  #latest-news h2,
+  .subscribe h2 {
+    font-size: 5vw;
+  }
+  .side p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .subscribe button {
+    width: 26%;
+    font-size: 14px;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  header {
+    height: 620px;
+  }
+  .navbar ul:nth-child(2) {
+    top: 10px;
+    right: 38px;
+  }
+  .logo img {
+    width: 22vw;
+  }
+  header .container {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    row-gap: 20px;
+    top: 14px;
+  }
+  header .container img {
+    width: 36vw;
+    height: 30vw;
+  }
+  .tagline h1 {
+    text-align: center;
+    width: 90vw;
+    font-size: 5vw;
+    line-height: 6.2vw;
+    margin-bottom: 10px;
+  }
+  .tagline p {
+    width: 90vw;
+    text-align: center;
+    font-size: 2.4vw;
+    line-height: 2.9vw;
+  }
+  .button-tagline {
+    display: flex;
+    justify-content: center;
+  }
+  .button-tagline button,
+  .side button {
+    font-size: 1.7vw;
+  }
+  #partners h2,
+  #courses h2,
+  #features-services h2,
+  #latest-news h2,
+  .subscribe h2 {
+    font-size: 6vw;
+  }
+  .side h2 {
+    font-size: 4.4vw;
+  }
+  #promotion-1,
+  #promotion-2 {
+    width: 90%;
+  }
+  #promotion-1 img,
+  #promotion-2 img,
+  #subscribe img {
+    width: 36vw;
+  }
+  #subscribe {
+    flex-direction: column;
+  }
+  .container .footer-lists {
+    padding-left: 40px;
+  }
+}
+
+
+@media screen and (max-width: 576px) {
+  header {
+    height: 560px;
+  }
+  nav {
+    padding: 20px 20px 0 20px;
+  }
+  .logo img {
+    width: 150px;
+  }
+  .navbar {
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-direction: column-reverse;
+    padding-left: 0;
+    background-color: rgba(0, 0, 0, 0.699);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.829);
+    border-radius: 20px 0 20px 20px;
+    position: absolute;
+    top: 10px;
+    right: 16px;
+    width: 0;
+    height: 0;
+    opacity: 0;
+    overflow: hidden;
+    transition: 0.5s ease;
+  }
+  .navbar.slide {
+    opacity: 1;
+    width: 90%;
+    height: 50vh;
+  }
+  .navbar ul:nth-child(1) {
+    flex-direction: column;
+    width: 75%;
+    height: 100%;
+    align-items: flex-end;
+    justify-content: space-around;
+  }
+  .navbar ul:nth-child(2) {
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom: 2px solid #fff;
+    background-color: transparent;
+    box-shadow: none;
+    border-radius: 0;
+    padding: 0;
+    position: static;
+    width: 75%;
+    height: 50px;
+    opacity: 1;
+  }
+  header .container img {
+    width: 54vw;
+    height: 48vw;
+  }
+  .tagline h1 {
+    width: 90vw;
+    font-size: 6.8vw;
+    line-height: 8vw;
+  }
+  .tagline p {
+    text-align: left;
+    font-size: 3.4vw;
+    line-height: 4.4vw;
+  }
+  .button-tagline button,
+  .side button {
+    font-size: 3vw;
+  }
+  #partners h2,
+  #courses h2,
+  #features-services h2,
+  #latest-news h2 {
+    font-size: 8vw;
+  }
+  .subscribe h2 {
+    font-size: 6vw;
+    line-height: 30px;
+  }
+  #partners .company img {
+    width: 25vw;
+  }
+  #promotion-1,
+  #promotion-2 {
+    row-gap: 10px;
+    width: 80%;
+    flex-direction: column;
+  }
+  #promotion-1 img,
+  #promotion-2 img,
+  #subscribe img {
+    width: 40vw;
+  }
+  #promotion-2 {
+    flex-direction: column-reverse;
+  }
+  .side h2 {
+    font-size: 6vw;
+    margin-bottom: 10px;
+  }
+  .side p {
+    font-size: 14px;
+    line-height: 26px;
+  }
+  footer .container {
+    width: 80%;
+    flex-direction: column;
+    row-gap: 40px;
+  }
+  .container .footer-lists {
+    padding-left: 0;
+  }
+}
